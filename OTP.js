@@ -10,7 +10,7 @@ for(let i = 0; i < length; i++){
 }
 console.log(otp1);
 
-//using math.floor()
+//using toFixed()
 let length = 6
 let otp = Math.random()
 console.log(otp);
