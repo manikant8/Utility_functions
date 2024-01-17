@@ -2,8 +2,9 @@
 let otp1 = ''
 let length = 4
 for(let i = 0; i < length; i++){
-    let otp = (Math.random() *10)+1
+    let otp = Math.random() * 10
     otp = Math.floor(otp)
+    otp += 1;
     otp = otp.toString()
     otp1 += otp;
 }
